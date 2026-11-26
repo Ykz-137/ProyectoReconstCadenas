@@ -1,0 +1,12 @@
+scalaVersion := "3.10.1"
+
+lazy val root = rootProject
+  .settings(
+    name := "ProyectoReconstCadenas",
+    libraryDependencies ++= Seq(
+      //You can add library dependencies here, for example,
+      //"org.scalatest" %% "scalatest" % "3.2.19" % Test,
+      //"org.scalameta" %% "munit" % "1.2.3" % Test
+      "org.scala-lang.modules" %% "scala-parallel-collections" % "1.2.0"
+    )
+  )
